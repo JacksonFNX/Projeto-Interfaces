@@ -74,7 +74,7 @@ function HomePage() {
       <div id= "Projects">
               <h2 className="titulos">Artigos</h2>
               <div className="container3">
-              <a href="/artigo" target="_blank" rel="not"><br/>
+              <a href="/artigo" target="" rel="not"><br/>
               <div className="Project-block1">
                   <p>Entenda como funciona o processo de Terraformação</p>
                 </div>

@@ -9,7 +9,7 @@ function App() {
           <h1>CosmosExplorer</h1>
           <div className="menubotoes">
           <ul>
-                  <li><a href="/home">Início</a> </li>
+                  <li><a href="/">Início</a> </li>
                   <li><a href="/home#Projects">Artigos</a> </li>
                   <li><a href="#Sobre">Sobre</a> </li>
               </ul>
