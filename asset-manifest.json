@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Projeto-Interfaces/static/css/main.a319fcb5.css",
-    "main.js": "/Projeto-Interfaces/static/js/main.8e0a6edb.js",
+    "main.css": "/Projeto-Interfaces/static/css/main.120489ad.css",
+    "main.js": "/Projeto-Interfaces/static/js/main.e2309319.js",
     "static/js/787.bbb1b4ac.chunk.js": "/Projeto-Interfaces/static/js/787.bbb1b4ac.chunk.js",
     "static/media/5.png": "/Projeto-Interfaces/static/media/5.287e488a237a2207da45.png",
     "static/media/2.png": "/Projeto-Interfaces/static/media/2.c0faa13f22c9ee16216a.png",
@@ -15,12 +15,12 @@
     "static/media/foguete.png": "/Projeto-Interfaces/static/media/foguete.a8fe50d194ba39f41266.png",
     "static/media/not1.png": "/Projeto-Interfaces/static/media/not1.c0f1c0ecd20af10fae26.png",
     "index.html": "/Projeto-Interfaces/index.html",
-    "main.a319fcb5.css.map": "/Projeto-Interfaces/static/css/main.a319fcb5.css.map",
-    "main.8e0a6edb.js.map": "/Projeto-Interfaces/static/js/main.8e0a6edb.js.map",
+    "main.120489ad.css.map": "/Projeto-Interfaces/static/css/main.120489ad.css.map",
+    "main.e2309319.js.map": "/Projeto-Interfaces/static/js/main.e2309319.js.map",
     "787.bbb1b4ac.chunk.js.map": "/Projeto-Interfaces/static/js/787.bbb1b4ac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a319fcb5.css",
-    "static/js/main.8e0a6edb.js"
+    "static/css/main.120489ad.css",
+    "static/js/main.e2309319.js"
   ]
 }
