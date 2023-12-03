@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Projeto-Interfaces/static/css/main.d75ef754.css",
+    "main.js": "/Projeto-Interfaces/static/js/main.93633d62.js",
+    "static/js/787.bbb1b4ac.chunk.js": "/Projeto-Interfaces/static/js/787.bbb1b4ac.chunk.js",
+    "static/media/5.png": "/Projeto-Interfaces/static/media/5.287e488a237a2207da45.png",
+    "static/media/2.png": "/Projeto-Interfaces/static/media/2.c0faa13f22c9ee16216a.png",
+    "static/media/4.png": "/Projeto-Interfaces/static/media/4.522f48da4dca3c46e2a9.png",
+    "static/media/6.png": "/Projeto-Interfaces/static/media/6.7ba53a9805089d025deb.png",
+    "static/media/3.png": "/Projeto-Interfaces/static/media/3.a25906caaccb435b93ae.png",
+    "static/media/jupiter.png": "/Projeto-Interfaces/static/media/jupiter.bc2dbcde9f1a8958df53.png",
+    "static/media/Comfortaa-VariableFont_wght.ttf": "/Projeto-Interfaces/static/media/Comfortaa-VariableFont_wght.4d2ab5de91c4d193a69f.ttf",
+    "static/media/foguete.png": "/Projeto-Interfaces/static/media/foguete.a8fe50d194ba39f41266.png",
+    "static/media/GitHub.png": "/Projeto-Interfaces/static/media/GitHub.12734544c05a4d837e1b.png",
+    "static/media/not1.png": "/Projeto-Interfaces/static/media/not1.c0f1c0ecd20af10fae26.png",
+    "index.html": "/Projeto-Interfaces/index.html",
+    "main.d75ef754.css.map": "/Projeto-Interfaces/static/css/main.d75ef754.css.map",
+    "main.93633d62.js.map": "/Projeto-Interfaces/static/js/main.93633d62.js.map",
+    "787.bbb1b4ac.chunk.js.map": "/Projeto-Interfaces/static/js/787.bbb1b4ac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d75ef754.css",
+    "static/js/main.93633d62.js"
+  ]
+}
