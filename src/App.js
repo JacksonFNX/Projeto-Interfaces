@@ -12,7 +12,7 @@ function App() {
           <h1>CosmosExplorer</h1>
           <div className="menubotoes">
           <ul>
-                  <li><a href="#About-header">Destaques</a> </li>
+                  <li><a href="#About-header">Início</a> </li>
                   <li><a href="#Projects">Artigos</a> </li>
                   <li><a href="#Contact">Sobre</a> </li>
               </ul>
@@ -74,7 +74,7 @@ function App() {
       <div id= "Projects">
               <h2 className="titulos">Artigos</h2>
               <div className="container3">
-              <a href="/artigo" target="" rel="not"><br/>
+              <a href="https://jacksonfnx.github.io/pagina/" target="" rel="not"><br/>
               <div className="Project-block1">
                   <p>Entenda como funciona o processo de Terraformação</p>
                 </div>

@@ -30,7 +30,8 @@ html {
     font-size: 1.5cm;
     text-align: start;
     margin-left: 1cm;
-    margin-top: 1cm;
+    margin-top: 0cm;
+    padding-top: 2cm;
   }
   .Menu {
     z-index: 10000;
@@ -135,7 +136,7 @@ html {
   }
   #About-header {
     background:  linear-gradient( #000a17, #00051c, #000215, #00000d ); 
-    min-height: 33cm;
+    height: 36cm;
     height: relative;
     justify-content: center;
     font-size: calc(10px + 2vmin);
@@ -719,7 +720,7 @@ html {
     .Menu{
       margin-top: -2em;
       justify-content: center;
-      height: 1.5cm;
+      height: 3cm;
     }
     #Contact {
         height: 17cm;
@@ -747,7 +748,8 @@ html {
       font-size: 1cm;
       text-align: start;
       margin-left: 1cm;
-      margin-top: 2cm;
+      margin-top: 0cm;
+      padding-top: 2cm;
     }
     .Menu ul li {
       display: inline;
@@ -763,7 +765,7 @@ html {
     .Menu{
       margin-top: 0em;
       justify-content: center;
-      height: 2cm;
+      height: 3cm;
     }
     .Menu h1{
       margin-top: 0.5cm;
