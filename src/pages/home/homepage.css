@@ -20,16 +20,17 @@ body::-webkit-scrollbar-thumb {
 }
 @font-face{
   font-family: 'Comfortaa';
-  src: url('./Fonts/Comfortaa-VariableFont_wght.ttf');
+  src: url('./../../Fonts/Comfortaa-VariableFont_wght.ttf');
 } 
-.App {
+.Home {
   text-align: center;
 }
-.titulos {
+.titulos{
   font-family: 'Comfortaa';
   font-size: 1.5cm;
   text-align: start;
-  margin-left: 1.5cm;
+  margin-left: 1cm;
+  margin-top: 1cm;
 }
 .Menu {
   z-index: 10000;
@@ -46,6 +47,11 @@ body::-webkit-scrollbar-thumb {
   margin: 0.2cm;
   margin-left: 1cm;
   float: left;
+}
+.menulogo{
+  float: left;
+  width: 1.8cm;
+  margin-left: 0.2cm;
 }
 .Menu ul {
   max-width: 90%;
@@ -77,27 +83,16 @@ body::-webkit-scrollbar-thumb {
 .Menu h1{
   float: left;
   text-align: left;
-  margin-top: 0;
+  margin-top: 0.2cm;
   margin-left: 10px;
-  margin-bottom: 0px;
 }
-.Destaque-des1 {
+.Destaque1{
+  font-size: relative;
   z-index: 2;
-  width: 42%;
+  width: 27.33%;
   float: left;
   background: #010013da;
-  margin: 2%;
-  min-height: 13cm;
-  padding: 2%;
-  border-radius: 10px;
-  box-shadow:         0px 5px 7px #00000070;
-}
-.Destaque-des2 {
-  z-index: 2;
-  width: 42%;
-  float: left;
-  background: #010013da;
-  margin: 2%;
+  margin: 1%;
   min-height: 13cm;
   padding: 2%;
   border-radius: 10px;
@@ -140,7 +135,7 @@ body::-webkit-scrollbar-thumb {
 }
 #About-header {
   background:  linear-gradient( #000a17, #00051c, #000215, #00000d ); 
-  min-height: 30cm;
+  min-height: 33cm;
   height: relative;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -596,7 +591,7 @@ body::-webkit-scrollbar-thumb {
 }
 #Projects {
   font-family: 'Comfortaa';
-  padding-top: 0.1cm;
+  padding-top: 0cm;
   color: white;
   min-height: 25cm;
   justify-content: center;
@@ -608,7 +603,7 @@ a{
   color: white;
 }
 .Project-block1 {
-  background: url('./Images/not1.png');
+  background: url('./../../Images/not1.png');
   margin-left: 2.5%;
   margin-top: 1cm;
   width: 30%;
@@ -619,7 +614,7 @@ a{
 
 }
 .Project-block2 {
-  background: url('./Images/2.png');
+  background: url('./../../Images/2.png');
   margin-left: 2.5%;
   margin-top: 1cm;
   width: 30%;
@@ -628,7 +623,7 @@ a{
   border-radius: 10px;
 }
 .Project-block3{
-  background: url('./Images/3.png');
+  background: url('./../../Images/3.png');
   margin-left: 2.5%;
   margin-top: 1cm;
   width: 30%;
@@ -637,7 +632,7 @@ a{
   border-radius: 10px;
 }
 .Project-block4 {
-  background: url('./Images/4.png');
+  background: url('./../../Images/4.png');
   margin-left: 2.5%;
   margin-top: 1cm;
   width: 30%;
@@ -646,7 +641,7 @@ a{
   border-radius: 10px;
 }
 .Project-block5 {
-  background: url('./Images/5.png');
+  background: url('./../../Images/5.png');
   margin-left: 2.5%;
   margin-top: 1cm;
   width: 30%;
@@ -655,7 +650,7 @@ a{
   border-radius: 10px;
 }
 .Project-block6 {
-  background: url('./Images/6.png');
+  background: url('./../../Images/6.png');
   margin-left: 2.5%;
   margin-top: 1cm;
   width: 30%;
@@ -701,7 +696,7 @@ a{
   position: relative;
   color: white;
   padding: 0.01cm;
-  min-height: 25cm;
+  height: 25cm;
   background: #0a0a0a;
   font-size: calc(10px + 2vmin);
 }
@@ -726,19 +721,38 @@ a{
     justify-content: center;
     height: 1.5cm;
   }
+  #Contact {
+      height: 17cm;
+  }
 }
 @media screen and 
-(max-width: 600px) {
-  .About-group-redes, .About-group-desc{
+(max-width: 800px) {
+  #About-header {
+    height: 67cm;
+  }
+  #Projects p{
+    font-size: small;
+  }
+  body::-webkit-scrollbar {
+    width: 0px; 
+  }
+  .Destaque1{
     max-width: 100%;
     width: 90%;
     min-height: 12cm;
     padding: 2.5%;
     margin: 2.5%;
   }
+  .titulos{
+    font-size: 1cm;
+    text-align: start;
+    margin-left: 1cm;
+    margin-top: 2cm;
+  }
   .Menu ul li {
     display: inline;
     margin-right: 0;
+    font-size: medium;
 
   }
   .menu ul {
@@ -749,10 +763,11 @@ a{
   .Menu{
     margin-top: 0em;
     justify-content: center;
-    height: 2.5cm;
+    height: 2cm;
   }
-  .titulos {
-    margin-top: 1cm;
+  .Menu h1{
+    margin-top: 0.5cm;
+    font-size: larger;
   }
   .Menu-titulo{
     min-width: 0%;
