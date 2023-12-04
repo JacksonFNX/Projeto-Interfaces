@@ -735,7 +735,7 @@ html {
   @media screen and 
   (max-width: 800px) {
     #About-header {
-      height: 67cm;
+      height: 73cm;
     }
     #Projects p{
       font-size: small;
