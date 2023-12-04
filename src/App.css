@@ -108,6 +108,8 @@ html {
     object-fit: cover;
     border-radius: 5px;
     box-shadow: 0px 5px 7px #00000070;
+    padding: 0px;
+    margin: 0px;
   }
   .About-icone {
     padding: 0.3cm;
@@ -581,12 +583,6 @@ html {
         transform: translateY(-250px);
     }
   }
-  .About-link {
-    padding-right: 0.3cm;
-    color: #368cfd;
-    float: right;
-    text-decoration: none;
-  }
   .About-redes a:hover {
     color: #585858;
   }
@@ -599,7 +595,15 @@ html {
     background:  linear-gradient( #00000d , #003366, #005387, #0072a6, #0092c7, #00b3e8, #4acfff, #a7e0ff);
     font-size: calc(10px + 2vmin);
   }
-  a{
+  .Destaque1 a{
+    text-decoration: none;
+    color: white;
+  }
+  #Projects a{
+    text-decoration: none;
+    color: white;
+  }
+  #Projects a{
     text-decoration: none;
     color: white;
   }
@@ -615,7 +619,9 @@ html {
   
   }
   .Project-block2 {
-    background: url('./Images/2.png');
+    background: url('./Images/bn.png');
+    background-size:cover;
+    background-repeat: no-repeat;
     margin-left: 2.5%;
     margin-top: 1cm;
     width: 30%;
